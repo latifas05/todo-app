@@ -1,8 +1,13 @@
 Лабораторная работа 3: CI/CD с GitHub Actions
 Цель: построить CI/CD-pipeline в GitHub Actions, который после каждого git push запускает тесты, собирает Docker-образ и публикует его на Docker Hub. Логин и токен Docker Hub хранятся в GitHub Secrets, а не в коде.
+
 Ссылка на публичный репозиторий: https://github.com/latifas05/todo-app
+
 Ссылка на успешный запуск pipeline: https://github.com/latifas05/todo-app/actions/runs/39903076029
+
+
 Ссылка на образ в Docker Hub: https://hub.docker.com/repository/docker/lil1iee/todo-app/general
+
 Структура проекта:
 <img width="1140" height="645" alt="1" src="https://github.com/user-attachments/assets/79883dba-a08e-41e9-987f-9dbc2223e2f9" />
 
