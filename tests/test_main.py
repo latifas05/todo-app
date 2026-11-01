@@ -14,7 +14,7 @@ def client():
 def test_health(client):
     response = client.get("/health")
     assert response.status_code == 200
-    assert response.get_json() == {"status": "ERROR"}
+    assert response.get_json() == {"status": "ok"}
 
 
 def test_list_is_empty_at_start(client):
